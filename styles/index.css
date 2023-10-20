@@ -91,6 +91,31 @@
     background-color: #6477a3;
     width: 30%;
     min-width: 200px;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.main-container h3{
+    font-size: 1.2rem;
+    padding: 10px 0;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.links-container {
+    margin: 12px 5px 0;
+}
+
+.links-container .link-item{
+    text-align: left;
+    background-color: rgb(160, 155, 155);
+    padding: 8px 5px;
+    border-bottom: 1px solid black;
+}
+
+.links-container .link-item:hover{
+    background-color: #4563ab;
+    border-bottom: 1px solid white;
 }
 
 footer {
