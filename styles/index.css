@@ -57,8 +57,17 @@ footer {
 
 .footer-right {
     width: 50%;
-    background-color: #243357;
+    background-color: #53699b;
     padding-right: 12px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-right p{
+    font-size: 0.8rem;
+    color: rgb(198, 193, 193);
+    width: 50%;
+    
 }
 
 .left-title {
