@@ -23,11 +23,19 @@
 
 .header{
     min-height: 120px;
-    background-color: #243357;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.header h1{
+    font-size: 2.5rem;
 }
 
 .main-container{
-    display: flex;;
+    display: flex;
 }
 
 .main-container main{
