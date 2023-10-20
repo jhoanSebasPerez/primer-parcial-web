@@ -72,6 +72,10 @@
     display: flex;
 }
 
+.other-news button{
+    display: none;
+}
+
 .news-item p{
     margin-top: 5px;
     font-weight: 300;
@@ -95,7 +99,7 @@
     text-align: center;
 }
 
-.main-container h3{
+.main-container aside h3{
     font-size: 1.2rem;
     padding: 10px 0;
     border: 1px solid black;
@@ -159,4 +163,89 @@ footer {
     width: 50%;
     background-color: #87a1dd;
 
+}
+
+@media (width <= 481px){
+    .container{
+        margin-top: 0;
+    }
+
+    .header{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .header h1{
+        font-size: 1.8rem;
+    }
+
+    .main-container {
+        flex-direction: column;
+    }
+
+    .main-container main{
+        width: 100%;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+
+    .main-content img {
+        width:70%;
+        margin: 0 auto 15px;
+
+    }
+
+    .other-news {
+        flex-direction: column;
+    }
+
+    .other-news .news-item p{
+        font-size: 0.9rem;
+    }
+
+    .other-news .news-item:nth-child(2),.news-item:nth-child(3){
+        display: none;
+    }
+
+    .other-news button{
+        margin-top: 10px;
+        display: block;
+        padding: 5px;
+        background-color: #53699b;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+
+    .other-news button:hover{
+        background-color: #53699b;
+    }
+
+    .main-container aside{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .links-container .link-item{
+        text-align: center;
+    }
+
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-left, .footer-right{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer-right p{
+        width: 100%;
+        margin: 0;
+        padding: 8px 0;
+    }
+    
 }
