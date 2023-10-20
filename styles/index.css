@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0; 
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.container{
+    min-width: 350px;
+    max-width: 1110px;
+    width: 90%;
+    background-color: aqua;
+    margin: 40px auto;
+}
