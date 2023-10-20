@@ -1,3 +1,11 @@
+:root{
+    --primary-color: #567bd1;
+    --secondary-color: #4563ab;
+    --terciary-color: #6490f5;
+    --fourth-color: #344b80;
+    --fifth-color: #243357;
+}
+
 * {
     margin: 0;
     padding: 0; 
@@ -8,8 +16,44 @@
 
 .container{
     min-width: 350px;
-    max-width: 1110px;
+    max-width: 1200px;
     width: 90%;
-    background-color: aqua;
     margin: 40px auto;
+}
+
+.header{
+    min-height: 120px;
+    background-color: #243357;
+}
+
+.main-container{
+    display: flex;;
+}
+
+.main-container main{
+    background-color: #6490f5;
+    width: 70%;
+    min-height: 400px;
+}
+
+.main-container aside {
+    background-color: #6477a3;
+    width: 30%;
+    min-width: 200px;
+}
+
+footer {
+    display: flex;
+    height: 80px;
+    
+}
+
+.footer-right {
+    width: 50%;
+    background-color: #243357;
+}
+
+.footer-left {
+    width: 50%;
+    background-color: #87a1dd;
 }
